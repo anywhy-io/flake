@@ -6,7 +6,7 @@
 	(descr "Pro Micro footprint")
 	(tags "promicro ProMicro")
 	(property "Reference" "U1"
-		(at 0 17.78 0)
+		(at 0 17.75 0)
 		(layer "B.SilkS")
 		(uuid "c0caf8fe-2bb2-4012-80b2-c6d95a01e576")
 		(effects
@@ -66,44 +66,64 @@
 		)
 	)
 	(fp_line
-		(start -9.144 16.764)
-		(end -9.144 15.748)
+		(start -9.144 -14.732)
+		(end -9.144 -15.748)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "69e0fa16-b8dd-4a89-8c1d-460e20d59367")
+		(uuid "b1fad047-6d71-43d7-8d59-7eab3359268b")
 	)
 	(fp_line
-		(start -8.128 16.764)
+		(start -9.144 16.002)
 		(end -9.144 16.764)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "e5c1280d-aa73-4bd6-b0ed-8b7945f5c753")
+		(uuid "120bb6ad-7756-4667-8872-2e474f1e4f72")
 	)
 	(fp_line
-		(start 9.144 15.748)
+		(start -9.144 16.764)
+		(end -8.382 16.764)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "7aad7163-8ed6-454d-87a4-68d46b6b70d9")
+	)
+	(fp_line
+		(start 9.144 -14.732)
+		(end 9.144 -15.748)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "fd3fd354-2e0b-4724-9f48-bf0048c3fecf")
+	)
+	(fp_line
+		(start 9.144 16.002)
 		(end 9.144 16.764)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "2cb5b41e-29a5-404d-8c36-d3dd40b211b4")
+		(uuid "82ebb128-6258-4918-acbb-8770c9a1824b")
 	)
 	(fp_line
 		(start 9.144 16.764)
-		(end 8.128 16.764)
+		(end 8.382 16.764)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "95b74765-5462-4da1-a88e-aa75f90ef111")
+		(uuid "410ac257-07e8-4128-aa50-68bc6bafcf40")
 	)
 	(fp_rect
 		(start -8.89 -13.97)
@@ -113,8 +133,8 @@
 			(type default)
 		)
 		(fill none)
-		(layer "F.CrtYd")
-		(uuid "77580e38-e116-40dd-9921-11796b62517b")
+		(layer "B.CrtYd")
+		(uuid "a9456143-b5b1-4f17-94f8-5cc916e5bec1")
 	)
 	(fp_rect
 		(start 6.35 -13.97)
@@ -124,8 +144,8 @@
 			(type default)
 		)
 		(fill none)
-		(layer "F.CrtYd")
-		(uuid "a9456143-b5b1-4f17-94f8-5cc916e5bec1")
+		(layer "B.CrtYd")
+		(uuid "77580e38-e116-40dd-9921-11796b62517b")
 	)
 	(fp_line
 		(start -8.89 -16.51)
@@ -434,7 +454,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -446,7 +467,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -458,7 +480,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -470,7 +493,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -482,7 +506,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -494,7 +519,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -506,7 +532,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -518,7 +545,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -530,7 +558,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -542,7 +571,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -554,7 +584,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -566,7 +597,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -578,7 +610,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -590,7 +623,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -602,7 +636,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -614,7 +649,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -626,7 +662,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -638,7 +675,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -650,7 +688,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -662,7 +701,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -674,7 +714,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -686,7 +727,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -698,7 +740,8 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
@@ -710,10 +753,27 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.08)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify mirror)
 		)
+	)
+	(pad "" np_thru_hole circle
+		(at -7.62 -15.24 270)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "F&B.Cu" "*.Mask")
+		(zone_connect 0)
+		(uuid "6cac485c-5ffd-4912-8db3-f34c65d66139")
+	)
+	(pad "" np_thru_hole circle
+		(at 7.62 -15.24 270)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "F&B.Cu" "*.Mask")
+		(zone_connect 0)
+		(uuid "7727a3cb-e3b0-40b6-9c51-0cd4cedeb24d")
 	)
 	(pad "1" smd circle
 		(at -7.62 -12.7 270)

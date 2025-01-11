@@ -1,12 +1,10 @@
 <div align="center">
-    <img alt="flake image" src="./docs/img/flake.webp">
+    <img alt="flake image" width="100%" src="./docs/img/flakes.jpg">
     <h3>Anywhy Flake</h3>
-    <p><i>Minimalism, efficiency and comfort</i></p>
+    <p><i> Enhance productive, be healthy and enjoy the process.</i></p>
 </div>
 
 # Why
-
-_To be productive, stay healthy and enjoy the process._
 
 By the 19th century, a need for a faster way of writing had emerged, which led to the invention of typewriters. Two centuries later, modern keyboards don't look much different from their predecessors, even though such design has been proven to be quite inefficient and often harmful.
 
@@ -14,7 +12,13 @@ Addressing these problems leads to huge benefits considering how often people us
 
 # How
 
-There are several problems that the Flake keyboard solves. I'll describe those with the most significant impact.
+## Split
+
+Regular keyboards are made in a single monolithic block, and the main problem is that such a form factor requires our forearms to meet in the center. To compensate for this, wrists are bent apart. This position creates an unnatural angle between the forearm and the wrist, which in the long term will likely lead to constant wrist pain.
+
+<img alt="flake s image" width="100%" src="./docs/img/table.jpg">
+
+Each half of the split keyboard can be rotated and placed in any suitable way so everyone can adapt the setup to their personal preference, avoiding potential damage to the wrists. As a bonus, we get free space right between the halves which can be occupied by a trackpad, coffee, or even a cat =^..^=
 
 ## Stagger
 
@@ -28,71 +32,65 @@ This well-known layout forces your fingers to move in a counterintuitive way. Th
 
 As you can see, Flake has what's called a column-based stagger. Because of this, keys are located in the path of natural finger movement, which results in a much more pleasant typing experience and reduced fatigue.
 
-## Split
+## Key switches
 
-One of the most noticeable things about Flake is that it has two separate halves.
+There are a huge amount of various keyboard switches with different feel, size, sound, height and so on. Such variety is awesome, but the problem arrives when you have to chose one.
 
-Regular keyboards are made in a single monolithic block, and the main problem is that such a form factor requires our forearms to meet in the center. To compensate for this, wrists are bent apart. This position creates an unnatural angle between the forearm and the wrist, which in the long term will likely lead to constant wrist pain.
+<img alt="flake s image" width="100%" src="./docs/img/flake-switches.jpg">
 
-Each half of the split keyboard can be rotated and placed in any suitable way so everyone can adapt the setup to their personal preference, avoiding potential damage to the wrists.
-
-As an added bonus, we get free space right between the halves which can be occupied by a trackpad, coffee, or even a cat (=^..^=).
+To address this issue, Flake utilizes hot-swap sockets. There are two different sockets per key, allowing you to use any Cherry MX and low-profile Kailh Choc switches. This way, you can always experiment with the look and feel of the keyboard and change it according to your mood.
 
 ## Keys amount
 
 There's a high chance that some might feel confused seeing such a small number of keys, considering user productivity is one of the priorities for Anywhy.
 
-<img alt="flake s image" width="100%" src="./docs/img/flake.svg">
+<img alt="flake s image" width="100%" src="./docs/img/flake-m.jpg">
 
-Indeed, Flake has fewer keys than most conventional keyboards (46 keys in total), and that's not a compromise, but a feature. A large number of keys causes hands to move around to reach further-placed keys like digits, brackets, punctuation, Backspace, Escape, etc.
+Indeed, Flake has fewer keys than most conventional keyboards, and that's not a compromise, but a feature. A large number of keys causes hands to move around to reach further-placed keys.
 
-Having fewer keys doesn't mean less functionality. In fact, Flake is not only fully input-compatible with regular keyboards but also allows you to add more keys than most keyboards have.
+Having fewer keys doesn't mean less functionality. In fact, Flake is not only fully input-compatible with regular keyboards but also allows you to add more keys than most keyboards have. All thanks to [ZMK Firmware](https://zmk.dev) and its features such as [layers](https://zmk.dev/docs/keymaps#layers).
 
 <img alt="config showcase image" width="100%" src="./docs/img/config-showcase.svg">
 
-By default, Flake uses [ZMK Firmware](https://zmk.dev) which provides functionality that significantly increases productivity. One of the most used features, which allows having all possible inputs with a minimal amount of keys, is [layers](https://zmk.dev/docs/keymaps#layers). They are pretty simple and work just like the well-known Shift key.
+### Flake L
 
-For those who strive for absolute comfort and compactness, there is also Flake S with 40 keys.
+There's a Flake L with 58 keys for those who aren't ready to jump down the rabbit hole yet or just prefer more keys.
 
-<img alt="flake s image" width="100%" src="./docs/img/flake-s.svg">
+<img alt="flake l image" width="100%" src="./docs/img/flake-l.jpg">
 
-The small version lacks one outer column on each of the halves to reduce pinky usage, as it is the weakest of all fingers.
+### Flake S
 
-## Thumb cluster
+For people who strive for absolute comfort and compactness, there is also Flake S with 40 keys.
 
-Keyboards are used in various ways, not only for typing text. Most popular tasks require the use of mod keys such as Control, Alt/Option, Super/Command/Win, and of course, Shift. Even though these keys are regularly used, they are placed in ridiculously inconvenient spots where only the pinky can reach them, and as we already know, it's the weakest finger.
+<img alt="flake s image" width="100%" src="./docs/img/flake-s.jpg">
 
-The Flake keyboard has a so-called thumb cluster which contains 10 keys in total to address that problem. In contrast, the thumb is one of the strongest fingers and is ideal for holding mod keys.
+## Thickness
+
+The keyboard has been designed to be as thin as possible while maintaining a sturdy construction.
+
+<img alt="flake s image" width="100%" src="./docs/img/thickness.jpg">
+
+The keyboard body is only ~0.8 cm (without feet), which combined with the low-profile switches and caps, greatly enhances comfort.
 
 # What
 
 Flake supports both wired and wireless (Bluetooth) connection, which makes it perfect for both home usage with a PC or portable setup with a laptop, tablet, or even smartphone.
 
-<img alt="flake s image" width="100%" src="./docs/img/ports.webp">
-
 To achieve both types of connectivity, each half has two USB-C ports, one on the top and one on the inner side. The side port is used to connect the halves together, and then one of them (usually the left one) can be connected to any device using the top port, which is also used to charge the keyboard.
 
 > Ports on the side are used only to communicate with each other, so they can't be used to charge the keyboard or to flash the new firmware
-> 
-<img alt="flake s image" width="100%" src="./docs/img/controller.webp">
 
-Flake is extremely thin. The keyboard body without switches and feet is a bit less than 0.8cm in height, which makes it compact and really comfortable to use, especially with low-profile switches.
+The keyboard allows for a maximum battery capacity of 200mah. On a single charge, the left half will last ~1 month and the right half will last over 4 months when used for 6 hours every day.
 
-> Unfortunately, to achieve such a low height, some tradeoffs were made in PCB and enclosure designs that make assembly and soldering a bit tricky. There's a chance that the keyboard will become thicker in the future if it will make it more robust and easier to repair.
-
-Talking about switches, Flake is hot-swappable and supports three types of switches: the well-known Cherry MX compatible switches, low-profile Kailh Choc V1, and their newer version Choc V2.
-
-<img alt="flake s image" width="100%" src="./docs/img/switches.webp">
+> The calculations are done with the nice!nano controller.
 
 In order to use MX Switches, the special "plate" comes with the Flake which should be placed between the board and the switches.
 
-<img alt="flake s image" width="100%" src="./docs/img/ports_mx.webp">
+# Build
 
-> Plates are not required for the Choc switches as they are much lower than MX switches and don't need additional enclosure height to securely sit in the board
+If you want to build the keyboard yourself, check out [guide](./docs/build_guide.md), which describes everything you need to build your own Flake. 
 
-Anywhy Flake v0.1.0 is fully the tested version. The most similar version this repo has is v0.1.1, where I've changed the silkscreen modified some edges, and also added PCB copper fill. So if you want to build Flake yourself, I recommend using the v0.1.1 version, as well as checking out the [build guide](/docs/build_guide.md)
-
-> Feel free to send me your builds and keyboard reviews :)
+Feel free to send me the pictures of your builds, the most stylish I will post.
 
 # Credits
 
@@ -102,6 +100,8 @@ Huge thanks to:
   
 - [@pashutk](https://github.com/pashutk), the author of [Chocofi](https://github.com/pashutk/chocofi), an amazing tiny keyboard I've been using for a while.
   
+- [@ebastler](https://github.com/ebastler/) for his amazing [marbastlib](https://github.com/ebastler/marbastlib) which is being used as the basis for footprint switches
+
 - [@josefadamcik](https://github.com/josefadamcik), the author of [Sofle](https://github.com/josefadamcik/SofleKeyboard) which gave huge inspiration for the Flake's key layout.
   
 - [@petejohanson](https://github.com/petejohanson) for creating [ZMK Firmware](https://github.com/zmkfirmware/zmk) and all the [contributors](https://github.com/zmkfirmware/zmk/graphs/contributors) that make it better each day.
@@ -110,4 +110,4 @@ Huge thanks to:
 
 - People from the [ZMK discord server](https://zmk.dev/community/discord/invite) for being so kind while helping me learn how to design PCB and how to debug and solve various problems.
 
-- Finally, a huge thank you to everyone who explores unpopular technologies, digs into niche topics, and makes amazing things possible.
+- Finally, thank you to everyone who explores unpopular technologies, digs into niche topics, and makes amazing things possible.

@@ -68,7 +68,7 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -5.25 3.25)
+		(start -5.25 3.5)
 		(end -5.25 4.5)
 		(stroke
 			(width 0.15)
@@ -78,7 +78,7 @@
 		(uuid "05e68387-cf9f-47d9-9fff-eb8f7625114b")
 	)
 	(fp_line
-		(start 5.25 3.25)
+		(start 5.25 3.5)
 		(end 5.25 4.5)
 		(stroke
 			(width 0.15)
@@ -88,7 +88,7 @@
 		(uuid "57e563be-4187-4157-9fab-6f278f7207df")
 	)
 	(fp_rect
-		(start -4.6 1.4)
+		(start -4.6 1.5)
 		(end 4.6 7.8)
 		(stroke
 			(width 0.1)
@@ -159,7 +159,7 @@
 		(uuid "c3fcdc5e-5843-4b8e-9cda-be58d0bca95b")
 	)
 	(pad "S1" thru_hole oval
-		(at -5.575 2.1)
+		(at -5.575 2.2)
 		(size 1 1.8)
 		(drill oval 0.6 1.4)
 		(layers "*.Cu" "*.Mask")
@@ -177,7 +177,7 @@
 		(uuid "4c014a43-2865-47c4-bea7-157ea23ece35")
 	)
 	(pad "S1" thru_hole oval
-		(at 5.575 2.1)
+		(at 5.575 2.2)
 		(size 1 1.8)
 		(drill oval 0.6 1.4)
 		(layers "*.Cu" "*.Mask")
