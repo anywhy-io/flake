@@ -36,7 +36,7 @@ As you can see, Flake has what's called a column-based stagger. Because of this,
 
 There are a huge amount of various keyboard switches with different feel, size, sound, height and so on. Such variety is awesome, but the problem arrives when you have to chose one.
 
-<img alt="flake s image" width="100%" src="./docs/img/flake-switches.jpg">
+<img alt="flake s image" width="100%" src="./docs/img/flake_switches.jpg">
 
 To address this issue, Flake utilizes hot-swap sockets. There are two different sockets per key, allowing you to use any Cherry MX and low-profile Kailh Choc switches. This way, you can always experiment with the look and feel of the keyboard and change it according to your mood.
 
@@ -50,7 +50,7 @@ Indeed, Flake has fewer keys than most conventional keyboards, and that's not a 
 
 Having fewer keys doesn't mean less functionality. In fact, Flake is not only fully input-compatible with regular keyboards but also allows you to add more keys than most keyboards have. All thanks to [ZMK Firmware](https://zmk.dev) and its features such as [layers](https://zmk.dev/docs/keymaps#layers).
 
-<img alt="config showcase image" width="100%" src="./docs/img/config-showcase.svg">
+<img alt="config showcase image" width="100%" src="./docs/img/config_showcase.svg">
 
 ### Flake L
 
