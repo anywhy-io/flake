@@ -1,7 +1,7 @@
 <div align="center">
     <img alt="flake image" width="100%" src="./docs/img/flakes.jpg">
     <h3>Anywhy Flake</h3>
-    <p><i> Enhance productive, be healthy and enjoy the process.</i></p>
+    <p><i>be productive, stay healthy and enjoy the process.</i></p>
 </div>
 
 # Why
