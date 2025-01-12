@@ -9,7 +9,7 @@ pcb/<keyboard-size>/production/
 Download the appropriate Gerber files for your keyboard version:
 
 - [Flake S/M](https://github.com/anywhy-io/flake/blob/main/pcb/M%2CS/production/Flake.zip)
-- [Flake L](https://github.com/anywhy-io/flake/blob/main/pcb/M%2CS/production/Flake.zip)
+- [Flake L](https://github.com/anywhy-io/flake/blob/main/pcb/L/production/Flake-L.zip)
   
 # Where are the Enclosure files?
 
