@@ -50,7 +50,7 @@ Indeed, Flake has fewer keys than most conventional keyboards, and that's not a 
 
 Having fewer keys doesn't mean less functionality. In fact, Flake is not only fully input-compatible with regular keyboards but also allows you to add more keys than most keyboards have. All thanks to [ZMK Firmware](https://zmk.dev) and its features such as [layers](https://zmk.dev/docs/keymaps#layers).
 
-<img alt="config showcase image" width="100%" src="./docs/img/config_showcase.svg">
+<img alt="config showcase image" width="100%" src="./docs/img/config.svg">
 
 ### Flake L
 
