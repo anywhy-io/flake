@@ -111,3 +111,9 @@ Huge thanks to:
 - People from the [ZMK discord server](https://zmk.dev/community/discord/invite) for being so kind while helping me learn how to design PCB and how to debug and solve various problems.
 
 - Finally, thank you to everyone who explores unpopular technologies, digs into niche topics, and makes amazing things possible.
+
+## Stars
+
+[![Star History Chart](https://api.star-history.com/svg?repos=anywhy-io/flake&type=Timeline)](https://star-history.com/#anywhy-io/flake&Timeline)
+
+Your stars give motivation to keep improving the project :)
