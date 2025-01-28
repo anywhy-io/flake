@@ -88,9 +88,9 @@ In order to use MX Switches, the special "plate" comes with the Flake which shou
 
 # Build
 
-If you want to build the keyboard yourself, check out [guide](./docs/build_guide.md), which describes everything you need to build your own Flake. 
+If you want to build the keyboard yourself, check out [Guide](./docs/build_guide.md), which describes everything you need to build your own Flake. 
 
-Feel free to send me the pictures of your builds, the most stylish I will post.
+Also, make sure to check out the [Gallery ✨](./docs/gallery.md) with awesome Flake builds.
 
 # Credits
 
