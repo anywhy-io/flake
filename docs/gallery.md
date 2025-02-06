@@ -2,6 +2,12 @@
 
 Welcome to the gallery, here you will find amazing Flake builds made by people. This page will be constantly expanding, so if you have a build you want to share, feel free to contact me and I'll add it here.
 
+## by [@kurisutofujp](https://www.reddit.com/r/ErgoMechKeyboards/comments/1iirgyt/comment/mb9034h/)
+
+Snow-white Flake L with MX switches
+
+<img alt="flake s image" width="100%" src="./img/gallery/kurisutofujp/img1.webp">
+
 ## by [@devpew](https://www.reddit.com/r/ErgoMechKeyboards/comments/1ieevvh/flake/)
 
 Clean white Flake M with black keyscaps
