@@ -114,6 +114,6 @@ Huge thanks to:
 
 ## Stars
 
-[![Star History Chart](https://api.star-history.com/svg?repos=anywhy-io/flake&type=Timeline)](https://star-history.com/#anywhy-io/flake&Timeline)
-
 Your stars give motivation to keep improving the project :)
+
+[![Star History Chart](https://api.star-history.com/svg?repos=anywhy-io/flake&type=Date)](https://star-history.com/#anywhy-io/flake&Date)
