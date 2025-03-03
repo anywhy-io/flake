@@ -8,7 +8,6 @@ Flake with Choc v1 Robin switches, 3d-printed keycaps and tenting legs
 
 <img alt="flake s image" width="100%" src="./img/gallery/caiodelgado/img1.webp">
 <img alt="flake s image" width="100%" src="./img/gallery/caiodelgado/img2.webp">
-<img alt="flake s image" width="100%" src="./img/gallery/caiodelgado/img3.webp">
 
 
 ## by [@kurisutofujp](https://www.reddit.com/r/ErgoMechKeyboards/comments/1iirgyt/comment/mb9034h/)
