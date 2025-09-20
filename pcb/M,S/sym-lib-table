@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "kbd")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/kbd.kicad_sym")(options "")(descr ""))
-)

@@ -1,165 +1,191 @@
-# How to Build the Flake?
+**English** | [简体中文](./internationalization/Chinese/build_guide.md) | [Русский](./internationalization/Russian/build_guide.md)
 
-## Components
+# Flake Keyboard Build Guide
 
-To build the Flake, you'll need the following materials:
+Welcome to the official build guide for the Flake keyboard! This guide is designed to be comprehensive and easy to follow, even if this is your first time building a keyboard.
 
-| Name                  | Count     | Remarks                              |
-|:----------------------|:----------|:-------------------------------------|
-| PCB                   | 1 set     |                                      |
-| MX hot-swap sockets   | 40/46/58  |                                      |
-| Choc hot-swap sockets | 40/46/58  |                                      |
-| Diodes                | 40/46/58  | 1N4148 SOD-323                       |
-| Switches              | 40/46/58  | Choc V1/V2 or MX switches            |
-| Keycaps               | 40/46/58  | Compatible with your switches        |
-| Controllers           | 2         | Any ProMicro-compatible controller   |
-| USB-C ports           | 2         | 6 pins, mid-mount 1.6mm ([example](https://www.lcsc.com/product-detail/USB-Connectors_BXCONN-UC19-0B06F65011_C36936556.html))|
-| Reset buttons         | 2         | TS-1289VE-4                          |
-| Enclosure             | 1 set     |                                      |
-| Plates                | 1 set     | Required for MX switches             |
-| M2 Screws             | 8         | Flat countersunk 8mm (e.g., DIN965)  |
-| M2 Hex nuts           | 8         | DIN439 (thinner than regular)        |
-| Rubber feet           | 8         | 6x2mm                                |
-| Battery sockets       | 2         | JST 1.25 with straight pins          |
-| Batteries             | 2         | 402030 (or smaller) with JST 1.25    |
+I recommend reading through the entire guide once before you begin to familiarize yourself with the process.
 
-[Here](essential_files.md) you can read where to find all the files you need for the PCBs and enclosures manufacture.
+## Prerequisites
 
-> **Note**: MX switch plates and batteries are optional depending on your build:
-> - Skip the plates if are going to use only Choc switches
-> - Omit batteries if plan to use Flake only by wire
+Before you start soldering or assembling, make sure you have all the necessary components and tools.
 
-# Assembly
+### Required Tools
+*   **Soldering Iron:** A quality soldering iron with adjustable temperature control is essential.
+*   **Solder:** Lead-free solder is strongly recommended for health and safety.
+*   **Flux:** A flux pen or paste will make soldering significantly easier.
+*   **Tweezers:** Essential for handling small components.
+*   **Screwdriver:** For the M2 screws used in the case.
+*   **(Optional) Multimeter:** Useful for troubleshooting.
 
-> ⚠️ **Important**: The soldering process can be challenging, especially for beginners. This guide is structured to tackle the most difficult parts first to minimize component waste if something goes wrong. I recommend reading the guide completely before starting assembly. For first-time builders, having spare PCBs and parts is advised.
+### Required Files
+You will need the manufacturing files for the PCB and the enclosure. You can find all the necessary files and instructions on where to order them here:
+➡️ **[Essential Files and Ordering Guide](essential_files.md)**
 
-## Preparing the PCB
+### Bill of Materials (BOM)
 
-The PCB consists of two halves connected by breakaway tabs.
+The required components vary based on the size of the keyboard you are building. The number of keys for each size is:
+*   **Small:** 40 keys
+*   **Medium:** 46 keys
+*   **Large:** 58 keys
 
-<img alt="PCB image" width="100%" src="./img/build_guide/pcb.jpg">
+| Component | Small (40) | Medium (46) | Large (58) | Notes |
+|:---|:---:|:---:|:---:|:---|
+| **Soldering Components** | | | | |
+| Anywhy Flake v2 PCB | 2 | 2 | 2 | One for each half |
+| Seeed Xiao nRF52840 | 2 | 2 | 2 | The microcontroller |
+| JST 1.25 SMD 2pin Connector | 2 | 2 | 2 | For the battery |
+| MX Hot-swap Sockets | 40 | 46 | 58 | See note below |
+| Choc Hot-swap Sockets | 40 | 46 | 58 | See note below |
+| 1N4148 Diodes | 40 | 46 | 58 | 1 per switch (SOD-123 or SOD-323) |
+| **Assembly Components** | | | | |
+| Soldered PCB | 2 | 2 | 2 | From the step above |
+| Switches (Choc v1/v2 or MX) | 40 | 46 | 58 | 1 per socket |
+| Keycaps | 40 | 46 | 58 | Must be compatible with your switches |
+| Enclosure | 1 set | 1 set | 1 set | Includes top and bottom parts for each half |
+| 502030 LiPo Battery | 2 | 2 | 2 | Or smaller, with a JST 1.25 plug |
+| 6x2mm Rubber Feet | 8 | 8 | 8 | |
+| M2x4mm Stand-offs | 6 | 8 | 8 | |
+| M2x8mm Flat Countersunk Screws | 12 | 16 | 16 | e.g., DIN965 |
 
-Carefully separate the halves using pliers. Handle the top section with extra care - it remains fragile until the controller is installed.
+> [!NOTE]
+> **Sockets:** The Flake PCB supports both MX and Choc switches simultaneously. This guide shows you how to solder both socket types for maximum flexibility. If you are certain you will only ever use one type of switch, you can choose to solder only the corresponding sockets (MX or Choc) and omit the other set.
 
-<img alt="PCB image" width="100%" src="./img/build_guide/pcb_separated.jpg">
+---
 
-Since the assembly process is identical for both halves, this guide will focus on building one half. Simply repeat these steps for the second half.
+## 1. Soldering the PCB
 
-Select the PCB half you'll assemble first.
+This is the most detailed part of the build. Take your time, work in a well-ventilated area, and double-check your work as you go.
 
-<img alt="PCB image" width="100%" src="./img/build_guide/pcb_half.jpg">
+### Preparation
 
-If you're building the S version with 40 keys, now is the time to remove the outer column. To do this, hold the PCB with the bottom side facing you (as shown in the previous image) and gently fold it toward you until it breaks.
+#### A. Understand the Reversible PCB
 
-For M or L versions, keep the PCB as is.
+The Flake uses a **reversible PCB**. This means you use the same PCB design for both the left and right halves - you just flip one over. The assembly process is identical for both halves. This guide will walk you through building one half. **Simply repeat all steps on the second PCB, ensuring it is flipped to the opposite side.**
 
-## USB Port
+<img alt="Two reversible Flake PCBs" width="100%" src="./img/build_guide/pcb.webp">
 
-> **Note**: The outer pins and legs are connected to the GND (Ground) net, which contains substantial copper and requires more heat to solder properly. To ensure good connection, use additional flux and slightly increase the iron temperature, but avoid keeping the iron on the pad for too long.
+#### B. Clean the Holes Under the Controller
+Due to the manufacturing process, the controller pin holes may be partially obstructed. Before placing the controller, you must carefully clear these obstructions using a tip of your tweezers.
 
-Place the USB-C port in the appropriate cutout marked as J1 or J2, depending on which half you're working on. Ensure the port's back sits flush against the PCB.
+<img alt="Before and after cleaning the controller pin holes" width="100%" src="./img/build_guide/rings.webp">
 
-Apply a small amount of flux over the pins. Touch each of the six pads briefly with your soldering iron tip and solder wick. Use just enough solder to secure the port without creating bridges between pins.
+#### C. Break the PCB (Small Version Only)
+If you are building the 40-key **Small** version, as I do in this guide, you must snap off the outer pinky column from both PCBs. **If you are building the Medium or Large version, skip this step and leave the PCBs intact.**
 
-If bridges occur, apply flux and remove excess solder with your iron.
+<img alt="Breaking off the outer column for the Small version" width="100%" src="./img/build_guide/column.webp">
 
-<img alt="PCB image" width="100%" src="./img/build_guide/usb.jpg">
+#### D. Prepare Your Components
+Lay out the PCB and the components you will be soldering for one half.
 
-After soldering the pins, flip the PCB and solder the legs. Hold the iron over each hole for a few seconds to allow the solder to flow into it. Use a moderate amount of solder so it will not stick out of the PCB surface.
+<img alt="All components for soldering one PCB half" width="100%" src="./img/build_guide/electronics.webp">
 
-<img alt="PCB image" width="100%" src="./img/build_guide/usb_bottom.jpg">
+### Step 1: Battery Connector (JST)
 
-> **Tip**: A good practice is to test the connections with a multimeter after soldering. The pins are symmetrically connected to the nets:
->
-> | Pins | Net | Description |
-> |------|-----|-------------|
-> | 1, 6 | GND | Ground      |
-> | 2, 5 | VCC | Power       |
-> | 3, 4 | RX  | Data        |
->
-> Locate these network names on the controller pads and verify proper connections.
+> [!TIP]
+> If your battery doesn't have a JST plug, you can solder it directly to the `RAW` (+) and `GND` (-) pads next to the JST footprint. However, this is not recommended as it makes the battery difficult to replace later.
 
-## Battery Connector
+1. Place the JST 1.25 connector onto its footprint at position `BT1`.
+2. Solder the two large mounting pads to secure connector.
+3. Solder the two small pins.
 
-Add solder to one of the long connector pads and apply flux. Insert the JST 1.25 socket into the BT1 hole (or BT2 for the other half) with the cutout facing downward. Hold the connector with tweezers, ensuring the legs lay flat on the pads. Apply soldered iron tip to the leg above the pre-soldered pad. Once one leg is secured, solder the second leg.
+<img alt="Soldering the JST battery connector" width="100%" src="./img/build_guide/jst.webp">
 
-Verify the connector sits parallel to the PCB. If needed, reheat the legs to adjust position. Check for any bridges between legs.
+### Step 2: Controller (Seeed Xiao)
 
-<img alt="PCB image" width="100%" src="./img/build_guide/jst.jpg">
+> [!IMPORTANT]
+> Proper alignment is critical. A misaligned controller may prevent the keyboard from fitting into the enclosure.
 
-Next, solder jumpers JP1 and JP2 (or JP3 and JP4, depending on the half). First, insert the battery into the socket and note the wire polarity from left to right. Remove the battery and solder the jumpers accordingly. For example, if you noted black (negative) then red (positive), solder the center and bottom pad on the left jumper and the center and top pad on the right jumper.
+1.  Place the Xiao controller onto its footprint inside the `U1` outline. The USB-C port should face outwards.
+2.  Solder **one corner pin** to tack the controller in place.
+3.  Check the alignment. If it's crooked, re-heat the pin and adjust.
+4.  Once aligned, solder the **diagonally opposite corner pin** to lock it in place.
 
-> ⚠️ **Warning**: Incorrect polarity can damage both controller and battery. Double-check all connections before proceeding.
+<img alt="Tacking opposite corner pins of the controller first" width="100%" src="./img/build_guide/opposite.webp">
 
-<img alt="PCB image" width="100%" src="./img/build_guide/jumpers.svg">
+5.  Proceed to solder all remaining pins.
 
-## Reset Switch
+<img alt="All controller pins soldered" width="100%" src="./img/build_guide/controller.webp">
 
-Position the reset switch at the bottom of the PCB in the RSW1 (or RSW2) location. Apply flux to the pins and carefully solder them using solder wire. Remove the excessive solder.
+6.  Flip the PCB and solder the `RAW` and `GND` pads under the controller.
 
-> **Note**: Two of the four pins connect to GND, so don't hesitate to use plenty of flux.
+<img alt="Soldering the RAW and GND pads under the controller" width="100%" src="./img/build_guide/power.webp">
 
-<img alt="PCB image" width="100%" src="./img/build_guide/reset.jpg">
+### Step 3: Diodes
 
-## Initial Sockets
+> [!WARNING]
+> Diodes are directional! The line on the diode must match the line on the PCB silkscreen. An incorrectly oriented diode will cause that key to fail.
 
-Before mounting the controller, solder the sockets adjacent to it. These become difficult to access once the controller is in place.
+For each switch position:
+1.  Add a small amount of solder to one of the two diode pads.
+2.  Using tweezers, slide a diode into place, re-heating the solder blob to secure one side. **Ensure the line on the diode aligns with the line on the PCB outline.**
+3.  Solder the other leg of the diode.
 
-<img alt="PCB image" width="100%" src="./img/build_guide/first_sockets.jpg">
+<img alt="Three-step process for soldering a diode" width="100%" src="./img/build_guide/diode.webp">
 
-## Per Key Components
+### Step 4: Hot-swap Sockets
 
-Each key requires one diode and two sockets. Begin with the diode installation:
+For each switch position:
+1.  Place the **MX socket** in the top position and the **Choc socket** in the bottom position.
+2.  Solder both metal legs on each socket.
 
-1. Apply solder to one pad
-2. Using tweezers, hold the diode while heating the solder
-3. Place the diode ensuring correct polarity
-4. Once secured, solder the remaining leg
+<img alt="Soldering MX and Choc hot-swap sockets" width="100%" src="./img/build_guide/sockets.webp">
 
-<img alt="PCB image" width="100%" src="./img/build_guide/diode.svg">
+### Soldering Complete!
+Congratulations! You have a fully soldered PCB. Take a moment to inspect all your solder joints.
 
-After the diode is installed, mount the sockets (MX on top, Choc on bottom). Hold the soldering iron at approximately 45° to the table and insert it into the socket's side leg. Feed solder just below the tip to ensure even distribution. Repeat for the other leg and second socket.
+<img alt="Completed PCB with all components soldered" width="100%" src="./img/build_guide/soldered.webp">
 
-## Controller Installation
+Now, repeat the entire soldering process for the second PCB. Remember to work on the **opposite side** of the PCB so it becomes a **mirror image** of the first half.
 
-Position the controller in the cutout labeled U1 (or U2). Use the silkscreen and top holes for proper alignment.
+## 2. Case Assembly
 
-<img alt="PCB image" width="50%" src="./img/build_guide/controller_cutout.png">
+With both PCBs soldered, it's time to put everything into the enclosure.
 
-For optimal results, temporarily insert pins in the top two holes without soldering them. This helps maintain position during soldering.
+1.  Gather the soldered PCB, case parts, battery, standoffs, and screws.
 
-Begin by soldering opposite corners, preferably choosing pads with minimal copper (aka not GND or RAW). I prefer B6 followed by TX pad.
+<img alt="All components for final assembly" width="100%" src="./img/build_guide/hardware.webp">
 
-Apply flux generously to the chosen hole. Insert solder wire and touch both the hole ring and solder with the iron tip. Push the wire in until all the solder is absorbed. Melt the joint and press down on the controller with the tweezers. Repeat for the opposite hole. When done correctly, the controller should sit flush against the PCB.
+2.  Screw the M2x4mm standoffs into the **bottom half** of the case.
 
-> Tip: Since direct pad contact is difficult, consider using a hot plate during soldering. Alternative heating methods (like a regular fan) can help. When filling holes, keep the iron in place for several seconds to distribute heat evenly. To avoid controller damage, touch only the solder bubble, not the hole ring.
+<img alt="Standoffs installed in the bottom plate" width="100%" src="./img/build_guide/standoff.webp">
 
-After securing the controller, remove the temporary legs and solder all remaining holes. Use plenty of flux. After soldering all connections, apply flux and remove any excess solder with the iron.
+3.  Seat the soldered PCB into the **top half** of the case. Connect the battery's JST plug and place the battery into its dedicated cutout.
 
-The controller should sit flat with no protruding solder.
+> [!WARNING]
+> **Battery Safety:** Triple-check the polarity before connecting battery. Connecting the battery backwards (red wire to `GND (-)`, black wire to `RAW (+)`) will destroy the microcontroller.
 
-<img alt="PCB image" width="100%" src="./img/build_guide/controller.jpg">
+<img alt="PCB and battery placed in the top case" width="100%" src="./img/build_guide/inside.webp">
 
-## Remaining Diodes and Sockets
+4.  Carefully place the bottom plate onto the top part, aligning the standoff holes. Stick the self-adhesive rubber feet onto the dedicated spots on the bottom of the case.
 
-Complete the installation of remaining diodes and sockets following [the same process as before](#per-key-components). It's recommended to install all diodes first, then proceed with socket installation.
+> [!TIP]
+> For the second half, place the feet on the opposite corners. This allows the two halves to sit flush against each other back-to-back for transport.
 
-<img alt="PCB image" width="100%" src="./img/build_guide/pcb_assembled.jpg">
+<img alt="Assembled case from the bottom with rubber feet" width="100%" src="./img/build_guide/feets.webp">
 
-## Enclosure Assembly
+5. Insert the M2x8mm screws from the top and tighten them. Do not overtighten.
 
-Place the PCB in the enclosure as shown. Carefully connect the battery, avoiding vertical force on the JST connector to prevent damage. Position the battery in its designated cutout and route wires to avoid interference with the lid.
+<img alt="Screws installed from the top to secure the case" width="100%" src="./img/build_guide/assembled.webp">
 
-<img alt="PCB image" width="100%" src="./img/build_guide/pcb_in_enclosure.jpg">
+**Repeat** this assembly process for the second half of the keyboard.
 
-Place the lid and ensure it sits evenly. Insert hex nuts into the holes, compress the enclosure, and insert screws from the bottom. Add rubber feet, positioning them oppositely on the second half to eliminate gaps when halves are placed back-to-back.
+## 3. Final Assembly
 
-<img alt="PCB image" width="100%" src="./img/build_guide/assembled_back.jpg">
+> [!IMPORTANT]
+> If you are using MX switches, you must place the included MX plate onto the keyboard *before* inserting the switches.
 
-Repeat the entire process for the second half.
+1.  **Insert Switches:** Gently press your chosen switches (MX or Choc) into the corresponding hot-swap sockets. Ensure the switch pins are straight to avoid bending them.
 
-<img alt="PCB image" width="100%" src="./img/build_guide/assembled.jpg">
+<img alt="Inserting either MX or Choc switches" width="100%" src="./img/build_guide/switches.webp">
 
-## Final Assembly
+2.  **Install Keycaps:** Press your keycaps firmly onto the switch stems.
 
-Insert your chosen switches into the appropriate sockets (MX in top socket; Choc in bottom socket). Attach keycaps to complete the physical assembly. To make your Flake fully functional, you'll need to flash the firmware - refer to the [flashing guide](flashing_guide.md) for instructions.
+<img alt="Fully assembled Flake keyboard" width="100%" src="./img/build_guide/done.webp">
+
+
+## You're Done!
+Congratulations on building your Flake keyboard! Your keyboard is now physically complete.
+
+The final step is to flash the firmware to make it fully functional. Please proceed to the next guide:
+➡️ **[Flashing Guide](flashing_guide.md)**
