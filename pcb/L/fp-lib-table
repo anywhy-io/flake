@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "axseem")(type "KiCad")(uri "/home/axseem/me/kicad/Anywhy/Flake/pcb/lib/axseem.pretty")(options "")(descr ""))
-)

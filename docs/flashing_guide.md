@@ -1,4 +1,6 @@
-# How to Flash the Flake?
+**English** | [简体中文](./internationalization/Chinese/flashing_guide.md) | [Русский](./internationalization/Russian/flashing_guide.md)
+
+# Flake Keyboard Flashing Guide
 
 ## Getting the Firmware
 
@@ -9,7 +11,7 @@ To download the firmware:
 2. Select the most recent successful build (indicated by a green checkmark)
 3. Download the firmware package
 
-<img alt="Firmware download page" width="100%" src="./img/build_guide/firmware.png">
+<img alt="Firmware download page" width="100%" src="./img/flashing_guide/firmware.png">
 
 ## Flashing Process
 
@@ -31,7 +33,7 @@ To download the firmware:
 1. Reconnect the left half of the keyboard
 2. Navigate to [ZMK Studio](https://zmk.studio) website
 
-<img alt="ZMK Studio USB connection" width="100%" src="./img/build_guide/zmk_usb.png">
+<img alt="ZMK Studio USB connection" width="100%" src="./img/flashing_guide/zmk_usb.png">
 
 3. Click the USB button and select "Anywhy Flake" from the device list
 
@@ -42,18 +44,18 @@ To unlock the keyboard's configuration:
 1. Access the second layer by holding down the leftmost thumb key on the right half
 2. Press the lowest key in the extra index finger column on the left half
 
-<img alt="ZMK Studio unlock process" width="100%" src="./img/build_guide/zmk_unlock.png">
+<img alt="ZMK Studio unlock process" width="100%" src="./img/flashing_guide/zmk_unlock.png">
 
 
 This will give you access to the ZMK Studio interface where you can customize your keyboard's settings.
 
-<img alt="ZMK Studio interface" width="100%" src="./img/build_guide/zmk_studio.png">
+<img alt="ZMK Studio interface" width="100%" src="./img/flashing_guide/zmk_studio.png">
 
 ### Setting the Layout
 1. In the left sidebar, select your keyboard size from the available options
 2. This ensures all configurations match your specific Flake variant
 
-<img alt="ZMK Studio layout selection" width="100%" src="./img/build_guide/zmk_layout.png">
+<img alt="ZMK Studio layout selection" width="100%" src="./img/flashing_guide/zmk_layout.png">
 
 ## Final Steps
 
