@@ -3026,7 +3026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 38.1 31.75 0)
 			(effects
 				(font
@@ -3182,7 +3182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 52.07 31.75 0)
 			(effects
 				(font
@@ -3426,7 +3426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 66.04 57.15 0)
 			(effects
 				(font
@@ -3846,7 +3846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -3914,7 +3914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 107.95 69.85 0)
 			(effects
 				(font
@@ -4313,7 +4313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 52.07 69.85 0)
 			(effects
 				(font
@@ -4381,7 +4381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 66.04 44.45 0)
 			(effects
 				(font
@@ -4667,7 +4667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 52.07 44.45 0)
 			(effects
 				(font
@@ -4735,7 +4735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 66.04 31.75 0)
 			(effects
 				(font
@@ -4803,7 +4803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 38.1 44.45 0)
 			(effects
 				(font
@@ -4937,7 +4937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 52.07 57.15 0)
 			(effects
 				(font
@@ -5005,7 +5005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 93.98 31.75 0)
 			(effects
 				(font
@@ -5073,7 +5073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 80.01 31.75 0)
 			(effects
 				(font
@@ -5141,7 +5141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 107.95 57.15 0)
 			(effects
 				(font
@@ -5209,7 +5209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 80.01 69.85 0)
 			(effects
 				(font
@@ -5365,7 +5365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 80.01 44.45 0)
 			(effects
 				(font
@@ -5500,7 +5500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 93.98 44.45 0)
 			(effects
 				(font
@@ -5568,7 +5568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 80.01 57.15 0)
 			(effects
 				(font
@@ -6254,7 +6254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 38.1 57.15 0)
 			(effects
 				(font
@@ -6410,7 +6410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 107.95 31.75 0)
 			(effects
 				(font
@@ -6654,7 +6654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 93.98 69.85 0)
 			(effects
 				(font
@@ -6790,7 +6790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 93.98 57.15 0)
 			(effects
 				(font
@@ -6946,7 +6946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Reversible"
+		(property "Footprint" "axseem:SW_MX_Choc_Hotswap_Plated"
 			(at 66.04 69.85 0)
 			(effects
 				(font
