@@ -32,24 +32,24 @@ The required components vary based on the size of the keyboard you are building.
 - **Medium:** 46 keys
 - **Large:** 58 keys
 
-| Component                              | Small (40) | Medium (46) | Large (58) | Notes                                       |
-| :------------------------------------- | :--------: | :---------: | :--------: | :------------------------------------------ |
-| **Soldering Components**               |            |             |            |                                             |
-| Anywhy Flake v2 PCB                    |     2      |      2      |     2      | One for each half                           |
-| Seeed Xiao nRF52840                    |     2      |      2      |     2      | The microcontroller                         |
-| JST 1.25 SMD 2pin Horizontal Connector |     2      |      2      |     2      | For the battery                             |
-| MX Hot-swap Sockets                    |     40     |     46      |     58     | See note below                              |
-| Choc Hot-swap Sockets                  |     40     |     46      |     58     | See note below                              |
-| 1N4148 Diodes                          |     40     |     46      |     58     | 1 per switch (SOD-123 or SOD-323)           |
-| **Assembly Components**                |            |             |            |                                             |
-| Soldered PCB                           |     2      |      2      |     2      | From the step above                         |
-| Switches (Choc v1/v2 or MX)            |     40     |     46      |     58     | 1 per socket                                |
-| Keycaps                                |     40     |     46      |     58     | Must be compatible with your switches       |
-| Enclosure                              |   1 set    |    1 set    |   1 set    | Includes top and bottom parts for each half |
-| 502030 LiPo Battery                    |     2      |      2      |     2      | Or smaller, with a JST 1.25 plug            |
-| 6x2mm Rubber Feet                      |     8      |      8      |     8      |                                             |
-| M2x4mm Stand-offs                      |     6      |      8      |     8      |                                             |
-| M2x8mm Flat Countersunk Screws         |     12     |     16      |     16     | e.g., DIN965                                |
+| Component                                      | Small (40) | Medium (46) | Large (58) | Notes                                       |
+| :----------------------------------------------| :--------: | :---------: | :--------: | :------------------------------------------ |
+| **Soldering Components**                       |            |             |            |                                             |
+| Anywhy Flake v2 PCB                            |     2      |      2      |     2      | One for each half                           |
+| Seeed Xiao nRF52840                            |     2      |      2      |     2      | The microcontroller                         |
+| JST 1.25 SMD 2pin Horizontal Connector         |     2      |      2      |     2      | For the battery                             |
+| MX Hot-swap Sockets                            |     40     |     46      |     58     | See note below                              |
+| Choc Hot-swap Sockets                          |     40     |     46      |     58     | See note below                              |
+| 1N4148 Diodes                                  |     40     |     46      |     58     | 1 per switch (SOD-123 or SOD-323)           |
+| **Assembly Components**                        |            |             |            |                                             |
+| Soldered PCB                                   |     2      |      2      |     2      | From the step above                         |
+| Switches (Choc v1/v2 or MX)                    |     40     |     46      |     58     | 1 per socket                                |
+| Keycaps                                        |     40     |     46      |     58     | Must be compatible with your switches       |
+| Enclosure                                      |   1 set    |    1 set    |   1 set    | Includes top and bottom parts for each half |
+| 502030 LiPo Battery (up to 502050 for Flake L) |     2      |      2      |     2      | Or smaller, with a JST 1.25 plug            |
+| 6x2mm Rubber Feet                              |     8      |      8      |     8      |                                             |
+| M2x4mm Stand-offs                              |     6      |      8      |     8      |                                             |
+| M2x8mm Flat Countersunk Screws                 |     12     |     16      |     16     | e.g., DIN965                                |
 
 > [!NOTE]
 > **Sockets:** The Flake PCB supports both MX and Choc switches simultaneously. This guide shows you how to solder both socket types for maximum flexibility. If you are certain you will only ever use one type of switch, you can choose to solder only the corresponding sockets (MX or Choc) and omit the other set.
@@ -198,4 +198,3 @@ Congratulations on building your Flake keyboard! Your keyboard is now physically
 
 The final step is to flash the firmware to make it fully functional. Please proceed to the next guide:
 ➡️ **[Flashing Guide](flashing_guide.md)**
-
