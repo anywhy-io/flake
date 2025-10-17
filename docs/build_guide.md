@@ -49,7 +49,7 @@ The required components vary based on the size of the keyboard you are building.
 | 502030 LiPo Battery (up to 502050 for Flake L) |     2      |      2      |     2      | Or smaller, with a JST 1.25 plug            |
 | 6x2mm Rubber Feet                              |     8      |      8      |     8      |                                             |
 | M2x4mm Stand-offs                              |     6      |      8      |     8      |                                             |
-| M2x8mm Flat Countersunk Screws                 |     12     |     16      |     16     | e.g., DIN965                                |
+| M2x4mm Flat Countersunk Screws                 |     12     |     16      |     16     | e.g., DIN965                                |
 
 > [!NOTE]
 > **Sockets:** The Flake PCB supports both MX and Choc switches simultaneously. This guide shows you how to solder both socket types for maximum flexibility. If you are certain you will only ever use one type of switch, you can choose to solder only the corresponding sockets (MX or Choc) and omit the other set.
