@@ -164,7 +164,7 @@ Flake 使用的是**正反面通用 PCB**。这意味着左手和右手使用完
 
 <img alt="组装好的外壳底部及橡胶脚垫" width="100%" src="../../img/build_guide/feets.webp">
 
-5. 从顶部插入 M2x8mm 螺丝并拧紧。不要拧得过紧。
+5. 从顶部插入 M2x4mm 螺丝并拧紧。不要拧得过紧。
 
 <img alt="从顶部安装螺丝以固定外壳" width="100%" src="../../img/build_guide/assembled.webp">
 

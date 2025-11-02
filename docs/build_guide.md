@@ -173,7 +173,7 @@ With both PCBs soldered, it's time to put everything into the enclosure.
 
 <img alt="Assembled case from the bottom with rubber feet" width="100%" src="./img/build_guide/feets.webp">
 
-5. Insert the M2x8mm screws from the top and tighten them. Do not overtighten.
+5. Insert the M2x4mm screws from the top and tighten them. Do not overtighten.
 
 <img alt="Screws installed from the top to secure the case" width="100%" src="./img/build_guide/assembled.webp">
 
