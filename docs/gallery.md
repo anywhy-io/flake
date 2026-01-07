@@ -2,6 +2,14 @@
 
 Welcome to the gallery, here you will find amazing Flake builds made by people. This page will be constantly expanding, so if you have a build you want to share, feel free to contact me and I'll add it here.
 
+## by [@Constant_Pin_7757](https://www.reddit.com/r/ErgoMechKeyboards/comments/1q6lvwh/comment/ny8om0r/)
+
+<img alt="flake image" width="100%" src="./img/gallery/Constant_Pin_7757/img1.webp">
+<img alt="flake image" width="100%" src="./img/gallery/Constant_Pin_7757/img2.webp">
+<img alt="flake image" width="100%" src="./img/gallery/Constant_Pin_7757/img3.webp">
+
+Flake S with transparent housing, lavender PCB and MX switches
+
 ## by [@peppapighs](https://www.reddit.com/r/ErgoMechKeyboards/comments/1jbw0kt/my_custom_flake/)
 
 <img alt="flake image" width="100%" src="./img/gallery/peppapighs/img1.webp">
