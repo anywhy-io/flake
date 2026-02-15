@@ -27,6 +27,8 @@ To download the firmware:
 1. Disconnect the left half and connect the right half
 2. Repeat the same process using the file beginning with "anywhy_flake_right..."
 
+The keyboard is now fully functional, further steps are optional and only needed in case you want to modify the keymaps.
+
 ## Configuring with ZMK Studio
 
 ### Initial Connection

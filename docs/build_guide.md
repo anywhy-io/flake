@@ -58,7 +58,7 @@ The required components vary based on the size of the keyboard you are building.
 
 ## 1. Soldering the PCB
 
-This is the most detailed part of the build. Take your time, work in a well-ventilated area, and double-check your work as you go.
+This is the most detailed part of the build. Take your time, work in a well-ventilated area, and double-check your work as you go. Always use flux, start with a small amount of solder and add more if needed.
 
 ### Preparation
 
@@ -198,3 +198,8 @@ Congratulations on building your Flake keyboard! Your keyboard is now physically
 
 The final step is to flash the firmware to make it fully functional. Please proceed to the next guide:
 ➡️ **[Flashing Guide](flashing_guide.md)**
+
+## Troubleshooting
+
+1. Measure all diodes using a multimeter, maybe one was destroyed by too much heat during the solder process. They should all face the same direction (check the PCB again) and pass the test using the multimeter.
+2. Use a multimeter, press the faulty key or bridge it using a tweezer or a cable, measure respective Pins on the microcontroller for continuity. Use the kicad schema to know which row/col maps to which pins.
