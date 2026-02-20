@@ -58,7 +58,7 @@ The required components vary based on the size of the keyboard you are building.
 
 ## 1. Soldering the PCB
 
-This is the most detailed part of the build. Take your time, work in a well-ventilated area, and double-check your work as you go.
+This is the most detailed part of the build. Take your time, work in a well-ventilated area, and double-check your work as you go. Always use flux, start with a small amount of solder and add more if needed.
 
 ### Preparation
 
@@ -130,6 +130,13 @@ For each switch position:
 
 <img alt="Three-step process for soldering a diode" width="100%" src="./img/build_guide/diode.webp">
 
+#### Optional: Check the operational functionality
+
+1. Flash the **left** firmware as per [Flashing Guide](flashing_guide.md) on **both** keyboard Controllers
+2. Connect one keyboard half via USB-C to your host
+3. Use Via either in [browser](https://www.usevia.app/) or install the [app](https://github.com/cebby2420/via-desktop)
+4. Start Via, select your keyboard, go to the keyboard tester and use some solder wire or tweezers to bridge each socket's pad. You should hear a sound and see that the respective key was pressed in the keyboard tester UI. If both halfes work, you can continue with the next steps and should not run into any bigger issues, as you just tested that all Diodes work as well as all connection to the Controller
+
 ### Step 4: Hot-swap Sockets
 
 For each switch position:
@@ -198,3 +205,10 @@ Congratulations on building your Flake keyboard! Your keyboard is now physically
 
 The final step is to flash the firmware to make it fully functional. Please proceed to the next guide:
 ➡️ **[Flashing Guide](flashing_guide.md)**
+
+## Troubleshooting
+
+1. Check all your solder joints again. Use flux, maybe a lot of flux. It will help creating nice solder joints.
+2. Measure all diodes using a multimeter, maybe one was destroyed by too much heat during the solder process. They should all face the same direction (check the PCB again) and pass the test using the multimeter.
+3. If you think one key is non-functional: Use a multimeter, press the faulty key or bridge it using a tweezer or a cable, measure respective Pins on the microcontroller for continuity. Use the kicad schema to know which row/col maps to which pins.
+4. If you are in doubt, that you killed your Controller, build the testing firmware, flash it to the Controller and test each pin + ground using e.g. some solder wire. In a text editor you should see pin after pin once you bridge them with ground. For more details check the [documentation](https://zmk.dev/docs/troubleshooting/hardware-issues#identifying-issues)
