@@ -7,11 +7,8 @@
 Before your keyboard can function, you'll need to flash it with the appropriate firmware. The firmware is available in the [GitHub repository](https://github.com/anywhy-io/flake-zmk-module).
 
 To download the firmware:
-1. Visit the repository's [Actions page](https://github.com/anywhy-io/flake-zmk-module/actions)
-2. Select the most recent successful build (indicated by a green checkmark)
-3. Download the firmware package
-
-<img alt="Firmware download page" width="100%" src="./img/flashing_guide/firmware.png">
+1. Visit the repository's [Actions page](https://github.com/anywhy-io/flake-zmk-module/releases)
+2. Download the latest firmware
 
 ## Flashing Process
 
