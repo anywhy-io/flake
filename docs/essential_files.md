@@ -1,4 +1,6 @@
-**English** | [简体中文](./internationalization/Chinese/essential_files.md) | [Русский](./internationalization/Russian/essential_files.md)
+---
+title: Essential Files
+---
 
 # Where is the PCB Gerber file?
 
