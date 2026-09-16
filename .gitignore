@@ -17,3 +17,6 @@ fp-info-cache
 \#auto_saved_files#
 
 *.FCBak
+# KiCad local history and fabrication backups
+pcb/*/production/backups/
+.history/
