@@ -78,7 +78,7 @@ Also, be sure to check out the gallery to see amazing builds from the community!
 ➡️ **[Explore the Gallery ✨](./gallery.md)**
 
 Firmware installation and keymap customization are covered in the firmware documentation.
-➡️ **[Flashing Guide](./firmware/flashing_guide.md)**
+➡️ **[Flashing Guide](https://github.com/anywhy-io/flake-firmware/blob/main/docs/flashing_guide.md)**
 
 ## Credits
 

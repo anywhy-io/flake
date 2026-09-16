@@ -12,9 +12,7 @@
 
 ## Documentation
 
-Full documentation lives in [`docs/`](./docs). The
-[Anywhy website](https://anywhy.io/wiki/flake) is work in progress and is not
-published yet.
+Full documentation lives in [`docs/`](./docs).
 
 - [Build Guide](./docs/build_guide.md)
 - [Essential Files](./docs/essential_files.md)
