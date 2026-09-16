@@ -37,14 +37,14 @@ Snow-white Flake L with MX switches
 
 ## by [@devpew](https://www.reddit.com/r/ErgoMechKeyboards/comments/1ieevvh/flake/)
 
-Clean white Flake M with black keyscaps
+Clean white Flake M with black keycaps
 
 <img alt="flake image" width="100%" src="./img/gallery/devpew/img1.webp">
 
 
 ## by [@CaptLynx](https://www.reddit.com/r/ErgoMechKeyboards/comments/1ic3nkc/caitlynarcane_themed_anywhy_flake/)
 
-The design is inspired by Caitlin, a character from the Arcane series.
+The design is inspired by Caitlyn, a character from the Arcane series.
 
 <img alt="flake image" width="100%" src="./img/gallery/CaptLynx/img1.webp">
 

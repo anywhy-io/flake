@@ -24,7 +24,7 @@ Before you start soldering or assembling, make sure you have all the necessary c
 ### Required Files
 
 You will need the manufacturing files for the PCB and the enclosure. You can find all the necessary files and instructions on where to order them here:
-➡️ **[Essential Files and Ordering Guide](essential_files.md)**
+➡️ **[Manufacturing Files and Ordering Guide](manufacturing_files.md)**
 
 ### Bill of Materials (BOM)
 
@@ -137,7 +137,7 @@ For each switch position:
 1. Flash the **left** firmware as per [Flashing Guide](https://github.com/anywhy-io/flake-firmware/blob/main/docs/flashing_guide.md) on **both** keyboard Controllers
 2. Connect one keyboard half via USB-C to your host
 3. Use Via either in [browser](https://www.usevia.app/) or install the [app](https://github.com/cebby2420/via-desktop)
-4. Start Via, select your keyboard, go to the keyboard tester and use some solder wire or tweezers to bridge each socket's pad. You should hear a sound and see that the respective key was pressed in the keyboard tester UI. If both halfes work, you can continue with the next steps and should not run into any bigger issues, as you just tested that all Diodes work as well as all connection to the Controller
+4. Start Via, select your keyboard, go to the keyboard tester and use some solder wire or tweezers to bridge each socket's pad. You should hear a sound and see that the respective key was pressed in the keyboard tester UI. If both halves work, you can continue with the next steps and should not run into any bigger issues, as you just tested that all Diodes work as well as all connection to the Controller
 
 ### Step 4: Hot-swap Sockets
 

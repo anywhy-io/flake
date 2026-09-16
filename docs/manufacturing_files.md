@@ -1,5 +1,5 @@
 ---
-title: Essential Files
+title: Manufacturing Files
 ---
 
 # Where is the PCB Gerber file?

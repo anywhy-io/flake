@@ -2,16 +2,11 @@
 title: Flake
 ---
 
-<div align="center">
-    <img alt="Flake Keyboard Poster" width="100%" src="./img/poster/flake_poster(1:2)_1920p.webp">
-    <h3>Anywhy Flake</h3>
-    <p><i>An open-source, wireless, split ergonomic keyboard designed to be productive, healthy, and enjoyable.</i></p>
-    <p>
-        <a href="https://github.com/anywhy-io/flake/stargazers"><img src="https://img.shields.io/github/stars/anywhy-io/flake?style=for-the-badge&color=black" alt="GitHub Stars"></a>
-        <a href="https://github.com/anywhy-io/flake/blob/main/LICENSE"><img src="https://img.shields.io/github/license/anywhy-io/flake?style=for-the-badge&color=black" alt="License"></a>
-        <img src="https://img.shields.io/badge/Latest%20Version-V2-black?style=for-the-badge" alt="Latest Version: V2">
-    </p>
-</div>
+![Flake Keyboard](./img/banner.png)
+
+## Anywhy Flake
+
+*An open-source, wireless, split ergonomic keyboard designed to be productive, healthy, and enjoyable.*
 
 ## Why Flake?
 
@@ -23,11 +18,11 @@ The Flake keyboard addresses these problems from the ground up, providing huge b
 
 *   **Split Ergonomic Design:** Place each half where it feels best, eliminating wrist strain.
 *   **Columnar Stagger:** Keys are arranged to follow the natural movement of your fingers.
-*   **Wireless First:** True wireless freedom with Bluetooth LE powered by ZMK Firmware.
-*   **Hybrid Hot-Swap:** Supports **MX**, **Kailh Choc v1** and **Kailh Choc v2** switches.
+*   **Wireless First:** True wireless freedom with Bluetooth LE. At least 4 weeks of battery on the main half and 6 months on the secondary.[^battery]
+*   **Hybrid Hot-Swap:** Supports **MX**, **Kailh Choc v1**, **Kailh Choc v2** and **GLP v3** switches.
 *   **Three Sizes:** Choose the layout that fits you perfectly: **Small (40)**, **Medium (46)**, or **Large (58)** keys.
 *   **Ultra-Thin Profile:** An incredibly sleek and low-profile body for maximum comfort.
-*   **Fully Open Source:** All hardware and software files are available for you to build, modify, and share.
+*   **Fully Open:** All hardware and software files are published. Standard replaceable parts, no lock-in, no cloud — it's yours to build, modify, and repair.
 
 ## The Philosophy Behind the Design
 
@@ -92,3 +87,5 @@ Huge thanks to:
 -   Everyone working on [KiCad](https://gitlab.com/kicad/code/kicad) and [FreeCAD](https://github.com/FreeCAD/FreeCAD) for creating such powerful open source tools.
 -   The helpful and kind people from the [ZMK Discord server](https://zmk.dev/community/discord/invite) who helped me learn PCB design and solve countless problems.
 -   Thank you to everyone who explores unpopular technologies, digs into niche topics, and makes amazing things possible.
+
+[^battery]: Assumes 12 hours of continuous use per day, every day.
